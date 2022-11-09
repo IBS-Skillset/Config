@@ -1,0 +1,2 @@
+app :
+  value : 'quarkus service registry from config server'

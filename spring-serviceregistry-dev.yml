@@ -1,0 +1,2 @@
+app :
+  value : 'spring service registry from config server'
