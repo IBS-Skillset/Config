@@ -1,0 +1,2 @@
+app :
+  value : 'spring db from config server'

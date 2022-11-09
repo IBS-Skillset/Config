@@ -1,0 +1,2 @@
+app :
+  value : 'quarkus db from config server'
