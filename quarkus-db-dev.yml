@@ -1,2 +1,2 @@
 app :
-  value : 'quarkus db from config server'
+  value1 : 'quarkus db from config server'
