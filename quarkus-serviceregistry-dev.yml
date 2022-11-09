@@ -1,2 +1,2 @@
 app :
-  value : 'quarkus service registry from config server'
+  value2 : 'quarkus service registry from config server'
