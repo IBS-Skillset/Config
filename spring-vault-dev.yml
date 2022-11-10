@@ -2,7 +2,7 @@ spring:
   cloud:
     vault:
       kv:
-        enabled: 'true'
+        enabled: true
       scheme: http
       authentication: TOKEN
       token: 00000000-0000-0000-0000-000000000000
