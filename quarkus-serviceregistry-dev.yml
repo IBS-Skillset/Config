@@ -1,6 +1,9 @@
 quarkus:
   eureka:
+    host-name: localhost
     region: default
     prefer-same-zone: true
     service-url:
       default: http://localhost:8761/eureka/
+
+      
