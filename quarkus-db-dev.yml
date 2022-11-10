@@ -1,2 +1,14 @@
-app :
-  value1 : 'quarkus db from config server'
+quarkus:
+  datasource:
+    password: manager123
+    db-kind: POSTGRESQL
+    jdbc:
+      url: jdbc:postgresql://localhost:5432/postgres?currentSchema=mystays
+    username: postgres
+  hibernate-orm:
+    dialect: org.hibernate.dialect.PostgreSQL81Dialect
+    log:
+      sql: true
+    database:
+      generation: update
+
