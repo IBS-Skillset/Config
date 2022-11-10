@@ -5,11 +5,10 @@ quarkus:
       generation: update
     dialect: org.hibernate.dialect.PostgreSQL81Dialect
     log:
-      sql: 'true'
+      sql: true
   datasource:
     username: postgres
     password: manager123
     jdbc:
-      url: jdbc:postgresql://localhost:5432/postgres?currentSchema=mystays;
-    
-
+      url: jdbc:postgresql://localhost:5432/postgres?currentSchema=mystays
+   
