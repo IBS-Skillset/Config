@@ -1,14 +1,15 @@
 quarkus:
-  datasource:
-    password: manager123
-    db-kind: POSTGRESQL
-    jdbc:
-      url: jdbc:postgresql://localhost:5432/postgres?currentSchema=mystays
-    username: postgres
   hibernate-orm:
+    database:
+      default-schema: mystays
+      generation: update
     dialect: org.hibernate.dialect.PostgreSQL81Dialect
     log:
-      sql: true
-    database:
-      generation: update
+      sql: 'true'
+  datasource:
+    username: postgres
+    password: manager123
+    jdbc:
+      url: jdbc:postgresql://localhost:5432/postgres?currentSchema=mystays;
+    
 
