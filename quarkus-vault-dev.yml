@@ -1,6 +1,0 @@
-quarkus:
-  vault:
-    url: http://localhost:8200
-    authentication:
-      client-token: 00000000-0000-0000-0000-000000000000
-      
