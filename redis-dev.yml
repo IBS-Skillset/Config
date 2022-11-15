@@ -1,2 +1,0 @@
-app :
-  value : 'redis from config server'
